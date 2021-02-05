@@ -8,7 +8,7 @@
   2. An input of 7 yields ~3, depending on the MSE that the optimizer ends
      up with. Answers may vary as the machine's guess accuracy is not always
      predictable.
-  3. **Best Deal -** 160 Holly Pt. Road
-     **Worst Deal -** 760 New Point Comfort Hwy
+  3. **Best Deal -** 160 Holly Pt. Road  
+     **Worst Deal -** 760 New Point Comfort Hwy  
      Based on the price per square foot, I have chosen these two houses as the 
      best and worst of our group of houses.
