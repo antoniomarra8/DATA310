@@ -9,6 +9,6 @@
      up with. Answers may vary as the machine's guess accuracy is not always
      predictable.
   3. **Best Deal -** 160 Holly Pt. Road  
-     **Worst Deal -** 760 New Point Comfort Hwy  
+     **Worst Deal -** 984 Fitchett's Wharf Road
      Based on the price per square foot, I have chosen these two houses as the 
      best and worst of our group of houses.
