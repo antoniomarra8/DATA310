@@ -5,4 +5,4 @@
 **Antonio Marra**
 
 
-[Response 2/5](url) and ![Image](src)
+[Response 2/5](url) 
