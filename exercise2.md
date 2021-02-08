@@ -13,3 +13,4 @@
    they work together to guess the category of an image based on analysis of every pixel, and
    the loss funtion calculates the validity of this guess. The optimizer then revises this 
    guess accordingly, and the cycle repeats with this informed guess.
+   4. 
