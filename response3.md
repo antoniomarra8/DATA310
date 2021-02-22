@@ -1,14 +1,14 @@
 ### Response 3 ###
 
-! [MYPlotOG](myplotOG.png)
+[Original Image](myplotOG.png)
 
 **Pictured above is the first iteration, unedited, of a home built in a modern style.**
 
-! [MyPlot1](myplot1.png)
+[Filter 1](myplot1.png)
 
 **Here is the same picture but with a filter that accentuates the vertical lines on the image.**
 
-! [MyPlot2](myplot2.png)
+[Filter 2](myplot2.png)
 
 **And finally, a filter that accentuates the horizontal lines in the image rather than vertical.**
 
