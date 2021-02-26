@@ -33,4 +33,5 @@
   filter to one of your transformed images.**
 
   Using a 2x2 filter on this image works as a compressor for the image itself. This would compress all of the pixel values proportionally 
-  and create an image that may be slightly less focused than its 3x3 counterpart, but it uses less memory.
+  and create an image that may be slightly less focused than its 3x3 counterpart, but it uses less memory. These smaller images are easier to 
+  run through models and other processing. 
