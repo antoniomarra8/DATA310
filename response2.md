@@ -1,6 +1,4 @@
-# DATA 310 - Antonio Marra
-
-  * **Informal Response 2/8**  
+# DATA 310 - Antonio Marra Informal Response 2/8  
 
 
   * **Q: In the video, First steps in computer vision, Laurence Maroney introduces us to the Fashion 
