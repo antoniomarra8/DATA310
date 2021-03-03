@@ -16,7 +16,7 @@
    mnist dataset?** 
    
    Using multiple filters allows the user to highlight distinct features within the photo, for example,
-   emphasizing vertical lines over horizontal, or vice versa. In my mnist model I used three separate filters, 
-   one for horizontal emphasis, one for vertical, and the final 2x2 filter.
+   emphasizing vertical lines over horizontal, or vice versa. In my mnist model I used three separate filters 
+   within the architecture, one for horizontal emphasis, one for vertical, and the final 2x2 filter.
    
    
