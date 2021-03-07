@@ -31,9 +31,9 @@ Ultimately, I continued with 400 data points in my homes csv.
 
 ### **Model Architecture**
 
-
+My first attempt at the model architecture was to create a stack and 
 
 ### **Project File**
 
-![Project1](DATA310/project1.py)
+<a id="raw-url" href="https://raw.githubusercontent.com/antoniomarra8/DATA310/main/project1.py">project1.py</a>
 
