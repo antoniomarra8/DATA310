@@ -11,7 +11,7 @@ in class, I attempted to create another database from housing data in Miami, FL.
 the ingenious data scientists at Zillow had made an alteration to their website code that rendered 
 my zillow_scrape.py functionally useless.  
 
-Given this alteration, I reverted back to my original dataset of Austin, TX. [insert dataset link]
+Given this alteration, I reverted back to my original dataset of Austin, TX. 
 A quick check of the data showed that there were about eight seemingly random errors in transcribing house prices 
 from Zillow. I manually searched for these houses and found the Zestimate for each. After trying to run the code 
 in Pycharm, I repeatedly received an error on the initial scaling of the data:
@@ -23,23 +23,31 @@ homes[['sqft_scale']] = homes[['sqft']]/1000
 
 I concluded that the error was due to missing values in the square foot column for houses that did not report 
 square footage anywhere on zillow. This caused these values to spit back more html code. In order to avoid skewing the
-data, I replaced these 10 homes with other randomly chosen houses in Austin that had values for each metric we are measuring. 
+data, I replaced these 8 homes with other randomly chosen houses in Austin that had values for each metric we are measuring. 
 
-Ultimately, I continued with 400 data points in my homes csv. 
-
+Ultimately, I continued with 392 data points in my homes csv. 
 
 
 ### **Model Architecture**
 
-The model architecture itself is similar to the model we used for our previous list of 6 homes in Mathews, VA. We have a sequential neural network that uses 
+The model architecture itself is similar to the model we used for our previous list of 6 homes in Mathews, VA. We have a 
+sequential neural network that contains a single dense layer with the input shape set for the amount of variables chosen
+as the key analysis metrics. This was the original code I used for the model:
 
 ```
-model = tf.keras.Sequential([keras.layers.Dense(units=1, input_shape=[1])])
+model = tf.keras.Sequential([keras.layers.Dense(units=1, input_shape=[3])])
 model.compile(optimizer='sgd', loss='mean_squared_error')
 history = model.fit(x_1, y, epochs=500)
 ```
 
-### **Project File**
+I attempted to create three arrays to use in a stack in order to train my neural network. I received some errors when I first 
+tried to create these arrays because the shapes of my inputs were different between my x, x_1, and y values. After some unsuccessful
+attempts at reshaping and massaging these variables, I changed the input_shape=1 and was able to produce some graphs:
+
+
+
+
+### **Project Files**
 
 <a id="raw-url" href="https://raw.githubusercontent.com/antoniomarra8/DATA310/main/project1.py">project1.py</a>
 
