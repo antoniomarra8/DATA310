@@ -38,6 +38,10 @@ And two boxplots:
 
 ![Boxplot_sqft](/DATA310/data2.JPG)
 
+We can see from this data that there exists a small number of outliers in sqft and no_beds on the higher ends of the
+spectrum. Further, the median price of all of the houses was 425,000, and when we compare this with the mean, we can see that 
+these higher data points probably did skew the central tendency slightly upward. The data points that were concentrated near these higher 
+values were overwhelmingly predicted as bad investments by my model. 
 
 ### **Model Architecture**
 
