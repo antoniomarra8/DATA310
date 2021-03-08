@@ -43,3 +43,4 @@ history = model.fit(x_1, y, epochs=500)
 
 <a id="raw-url" href="https://raw.githubusercontent.com/antoniomarra8/DATA310/main/project1.py">project1.py</a>
 
+<a id="raw-url" href="https://raw.githubusercontent.com/antoniomarra8/DATA310/main/homes.csv">homes.csv</a>
