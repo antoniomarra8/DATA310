@@ -31,7 +31,7 @@ Ultimately, I continued with 400 data points in my homes csv.
 
 ### **Model Architecture**
 
-The model architecture itself consists of a neural network with one dense layer 
+The model architecture itself is similar to the model we used for our previous list of 6 homes in Mathews, VA. We have a sequential neural network that uses 
 
 ```
 model = tf.keras.Sequential([keras.layers.Dense(units=1, input_shape=[1])])
