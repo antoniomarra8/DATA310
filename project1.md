@@ -27,10 +27,10 @@ data, I replaced these 8 homes with other randomly chosen houses in Austin that 
 
 Ultimately, I continued with 392 data points in my homes csv. Here is some of the descriptive statistics of the data:
 
-Mean Price: 650557.6198979592, Min: 100,000, Max: 10,995,000, Std: 968.2185799931642, Var: 937447.2186439793  
-Mean Sqft: 1987.2551020408164, Min: 401, Max: 10,887, Std: 968.2185799931642, Var: 937447.2186439793  
-Mean no_beds: 3.2448979591836733, Min: 1, Max: 8, Std: 0.9601920576192067, Var: 0.921968787515006  
-Mean baths: 2.642857142857143, Max: 6, Min: 1, Std: 0.8846517369293828, Var: 0.782608695652174  
+Mean Price: 650557.6198979592, Min: 100,000, Max: 10,995,000, Std: 968.2185799931642,  Var: 937447.2186439793  
+Mean Sqft: 1987.2551020408164, Min: 401, Max: 10,887, Std: 968.2185799931642,  Var: 937447.2186439793  
+Mean no_beds: 3.2448979591836733, Min: 1, Max: 8, Std: 0.9601920576192067,  Var: 0.921968787515006  
+Mean baths: 2.642857142857143, Max: 6, Min: 1, Std: 0.8846517369293828,  Var: 0.782608695652174  
 
 And two boxplots:
 
