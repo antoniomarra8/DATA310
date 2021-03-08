@@ -31,7 +31,13 @@ Ultimately, I continued with 400 data points in my homes csv.
 
 ### **Model Architecture**
 
-My first attempt at the model architecture was to create a stack and 
+The model architecture itself consists of a neural network with one dense layer 
+
+```
+model = tf.keras.Sequential([keras.layers.Dense(units=1, input_shape=[1])])
+model.compile(optimizer='sgd', loss='mean_squared_error')
+history = model.fit(x_1, y, epochs=500)
+```
 
 ### **Project File**
 
