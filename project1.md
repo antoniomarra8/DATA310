@@ -25,7 +25,9 @@ I concluded that the error was due to missing values in the square foot column f
 square footage anywhere on zillow. This caused these values to spit back more html code. In order to avoid skewing the
 data, I replaced these 8 homes with other randomly chosen houses in Austin that had values for each metric we are measuring. 
 
-Ultimately, I continued with 392 data points in my homes csv. 
+Ultimately, I continued with 392 data points in my homes csv. Here is some of the descriptive statistics of the data:
+
+ ![Homes Boxplot](/DATA310/data1.jpg)
 
 
 ### **Model Architecture**
@@ -44,8 +46,9 @@ I attempted to create three arrays to use in a stack in order to train my neural
 tried to create these arrays because the shapes of my inputs were different between my x, x_1, and y values. After some unsuccessful
 attempts at reshaping and massaging these variables, I changed the input_shape=1 and was able to produce some graphs:
 
+ ![plot1](/DATA310/plot1.jpg)
 
-
+ ![plot2](/DATA310/plot2.jpg)
 
 ### **Project Files**
 
