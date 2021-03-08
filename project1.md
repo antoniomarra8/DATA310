@@ -34,9 +34,9 @@ Mean baths: 2.642857142857143, Max: 6, Min: 1, Std: 0.8846517369293828, Var: 0.7
 
 And two boxplots:
 
-![Homes Boxplot](/DATA310/data1.jpg)
+![Homes Boxplot](/DATA310/data1.JPG)
 
-![Boxplot_sqft](/DATA310/data2.jpg)
+![Boxplot_sqft](/DATA310/data2.JPG)
 
 
 ### **Model Architecture**
@@ -57,9 +57,9 @@ attempts at reshaping and massaging these variables, I changed the input_shape=1
 
 ### **Output Analysis**
 
-![plot1](/DATA310/plot1.jpg)
+![plot1](/DATA310/plot1.JPG)
 
-![plot2](/DATA310/plot2.jpg)
+![plot2](/DATA310/plot2.JPG)
 
 Upon first glance, the plots I generated describe a dataset that is very overfit to the graph trendline. After a discussion 
 and a workshop with our TAs, I decided to push forward with the graphs that I was able to generate due to time constraints. 
@@ -67,6 +67,15 @@ I believe the overfit graph can be explained by the issues that I had with the s
 
 The MSE of the raw data was around 5.061940368, which again alludes to a seriously overfit model; this can also be seen in
 the matplotlib graphs that I included in the Housing Data section. 
+
+Here are the best predicted deals based on my data for these houses:
+
+![Best Predicted](/DATA310/best_pred.JPG)
+
+After generating this list I ran some statistics on the differences between the predicted and asking prices. Given how
+overfit our model is, the predicted values are usually very close to the actual price. However, I still checked whether the
+model is predisposed to over-predictions or under-predictions. Overall, my model tended towards overpredictions, as more than half
+of the predicted values were higher than the asking price. However, we must be careful in extrapolating these results.
 
 ### **Project Files**
 
