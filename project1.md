@@ -27,7 +27,9 @@ data, I replaced these 8 homes with other randomly chosen houses in Austin that 
 
 Ultimately, I continued with 392 data points in my homes csv. Here is some of the descriptive statistics of the data:
 
- ![Homes Boxplot](/DATA310/data1.jpg)
+![Homes Boxplot](/DATA310/data1.jpg)
+
+![Boxplot_sqft](/DATA310/data2.jpg)
 
 
 ### **Model Architecture**
@@ -46,9 +48,15 @@ I attempted to create three arrays to use in a stack in order to train my neural
 tried to create these arrays because the shapes of my inputs were different between my x, x_1, and y values. After some unsuccessful
 attempts at reshaping and massaging these variables, I changed the input_shape=1 and was able to produce some graphs:
 
- ![plot1](/DATA310/plot1.jpg)
+### **Output Analysis**
 
- ![plot2](/DATA310/plot2.jpg)
+![plot1](/DATA310/plot1.jpg)
+
+![plot2](/DATA310/plot2.jpg)
+
+Upon first glance, the plots I generated describe a dataset that is very overfit to the graph trendline. After a discussion 
+and a workshop with our TAs, I decided to push forward with the graphs that I was able to generate due to time constraints. 
+I believe the overfit graph can be explained by the issues that I had with the stack earlier in my model architecture. 
 
 ### **Project Files**
 
