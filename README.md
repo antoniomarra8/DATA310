@@ -14,3 +14,5 @@
 ---
 
 [Project 1](https://antoniomarra8.github.io/DATA310/project1.html)
+
+[Project 2](https://antoniomarra8.github.io/DATA310/project2.html)
