@@ -11,7 +11,7 @@
 
 [Informal Response 4](https://antoniomarra8.github.io/DATA310/response4.html)
 
-[Informal Response 5](https://antoniomarra8.github.io/DATA310/response6.html)
+[Informal Response 5](https://antoniomarra8.github.io/DATA310/response5.html)
 
 ---
 
