@@ -48,7 +48,7 @@ a more basic understanding of the image at the pixel level can allow for more ac
 First, I normalize the dataset and create a segmentation mask for the images. I will be using a pretrained weight named MobileNetV2 .
 The model and layers are as follows:
 
-'''
+```
 base_model = tf.keras.applications.MobileNetV2(input_shape=[128, 128, 3], include_top=False)
 
 layer_names = [
@@ -63,9 +63,9 @@ base_model_outputs = [base_model.get_layer(name).output for name in layer_names]
 down_stack = tf.keras.Model(inputs=base_model.input, outputs=base_model_outputs)
 
 down_stack.trainable = False
-'''
+```
 
-'''
+```
 def unet_model(output_channels):
   inputs = tf.keras.layers.Input(shape=[128, 128, 3])
 
@@ -88,7 +88,7 @@ def unet_model(output_channels):
   x = last(x)
 
   return tf.keras.Model(inputs=inputs, outputs=x)
-'''
+```
 
 
 
