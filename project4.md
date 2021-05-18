@@ -35,6 +35,14 @@ different purposes. The first contains color images of hands forming each charac
 The second folder includes the same pictures, but after pre-processing, where each image is threshold binary converted images 
 for easier implementation in a model. Particularly, this will be useful for a CNN. 
 
+Here is one of the color images for the letter 'D':
+
+![color](/DATA310/color.png)
+
+And here is the same image but with a binary mask over it:
+
+![mask](/DATA310/mask.png)
+
 **Q: Provide the specification for your applied machine learning method that presented the most promise in 
 providing a solution to your problem. Include the section from your python or R script that specifies your
 model architecture, layers, functional arguments and specifications for compiling and fitting. Provide a brief 
