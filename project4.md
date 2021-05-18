@@ -57,7 +57,7 @@ First, I normalize the dataset and create a segmentation mask for the images. I 
 The model and layers are as follows:
 
 ```
-base_model = tf.keras.applications.MobileNetV2(input_shape=[128, 128, 3], include_top=False)
+base_model = tf.keras.applications.MobileNetV2(input_shape=[50, 50, 3], include_top=False)
 
 layer_names = [
     'block_1_expand_relu',   # 64x64
@@ -91,7 +91,7 @@ def unet_model(output_channels):
   # This is the last layer of the model
   last = tf.keras.layers.Conv2DTranspose(
       output_channels, 3, strides=2,
-      padding='same')  #64x64 -> 128x128
+      padding='same')  
 
   x = last(x)
 
